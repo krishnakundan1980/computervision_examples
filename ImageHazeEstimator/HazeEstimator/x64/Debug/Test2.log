@@ -1,0 +1,27 @@
+﻿Build started 7/31/2018 3:53:48 PM.
+     1>Project "E:\Kundan\OpenCV_Examples\Test2\Test2\Test2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\HazeEstimator.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\opencv\build\x64\vc10\..\..\Include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\HazeEstimator.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\opencv\build\x64\vc10\..\..\Include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\HazeEstimator.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ImageHazeEstimator.cpp Main.cpp
+         Main.cpp
+         ImageHazeEstimator.cpp
+     1>ImageHazeEstimator.cpp(48): warning C4102: 'cv' : unreferenced label
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Kundan\OpenCV_Examples\Test2\x64\Debug\HazeEstimator.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\opencv\build\x64\vc10\lib" opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\HazeEstimator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Kundan\OpenCV_Examples\Test2\x64\Debug\HazeEstimator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Kundan\OpenCV_Examples\Test2\x64\Debug\HazeEstimator.lib" /MACHINE:X64 x64\Debug\ImageHazeEstimator.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Main.obj
+         Test2.vcxproj -> E:\Kundan\OpenCV_Examples\Test2\x64\Debug\HazeEstimator.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Kundan\OpenCV_Examples\Test2\x64\Debug\HazeEstimator.exe;#1" /manifest x64\Debug\HazeEstimator.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\HazeEstimator.unsuccessfulbuild".
+         Touching "x64\Debug\HazeEstimator.lastbuildstate".
+     1>Done Building Project "E:\Kundan\OpenCV_Examples\Test2\Test2\Test2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
